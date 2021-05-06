@@ -1,0 +1,4 @@
+Browser->Server: get  https://studies.cs.helsinki.fi/exampleapp/spa
+Server->Browser:res  html, css, js
+Browser->Server: post Request URL: https://studies.cs.helsinki.fi/exampleapp/new_note
+Server->Browser:post  https://studies.cs.helsinki.fi/exampleapp/new_note_spa
